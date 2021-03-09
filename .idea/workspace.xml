@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c111f21-1b87-43e9-9625-cdf9affb7efb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Live Chat Scraper/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Exam Practice/Switch/src/tk/spagerolli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Exam Practice/Switch/src/tk/spagerolli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/htlanl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/htlanl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/oop/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/oop/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/oop/overloading/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/oop/overloading/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/oop/overriding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Goudham's/htlanl/htlanl/oop/overriding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/.ipynb_checkpoints/Iteration-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/Iteration.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/for_graph.merm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/patterns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/Python Iteration/while_graph.merm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/._Python Iteration" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/._.ipynb_checkpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/._Iteration.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/._for_graph.merm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/._patterns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/._while_graph.merm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/.ipynb_checkpoints/._Iteration-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python Iteration/__MACOSX/Python Iteration/.ipynb_checkpoints/._Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Valrise Bot" beforeDir="false" afterPath="$PROJECT_DIR$/../Valrise Bot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../valrise bank scraper/bank scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../valrise bank scraper/bank scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../valrise bank scraper/bank scraper/bank scraper.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../valrise bank scraper/bank scraper/bank scraper.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../valrise bank scraper/banks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../valrise bank scraper/banks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../valrise bank scraper/names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../valrise bank scraper/names.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pWd8s3vwysVxJ7co7plUHpDRDX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c111f21-1b87-43e9-9625-cdf9affb7efb" name="Default Changelist" comment="" />
+      <created>1615302624039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615302624039</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
