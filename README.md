@@ -1,4 +1,4 @@
-# group4project
+# Group 4 Project
 
 - The purpose of this is to pull player information from the Hypixel API
 - The data will then be filtered and displayed to the user
