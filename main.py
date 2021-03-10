@@ -10,6 +10,7 @@ def getData():
 
 
 def filterData():
+    #possible game acronyms
     skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
     bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
     flag = True
