@@ -20,7 +20,7 @@ def filterData():
             return searchGame
 
 
-data12312313 = getData()
+dataFromAPI = getData()
 gamemode = filterData()
-print(data12312313["player"]["stats"]["SkyWars"]["kills"])
-print(data12312313["player"]["stats"]["Bedwars"]["kills_bedwars"])
+print(dataFromAPI["player"]["stats"]["SkyWars"]["kills"])
+print(dataFromAPI["player"]["stats"]["Bedwars"]["kills_bedwars"])
