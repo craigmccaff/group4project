@@ -3,10 +3,24 @@ import requests
 
 def getData():
     API_KEY = "c1e412b1-5131-49f9-b7a2-bdfda4371684"
-    SEARCH_NAME = input('What name would you like to search for? ')
+    searchName = input('What name would you like to search for? ')
 
-    data = requests.get(f"https://api.hypixel.net/player?key={API_KEY}&name={SEARCH_NAME}").json()
+    data = requests.get(f"https://api.hypixel.net/player?key={API_KEY}&name={searchName}").json()
     return data
 
 
-print(getData())
+def filterData():
+    skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
+    bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
+    flag = True
+    while flag:
+        searchGame = input("What gamemode would you like to search for? ")
+        if searchGame in skywarsNames or searchGame in bedNames:
+            flag = False
+            return searchGame
+
+
+data12312313 = getData()
+gamemode = filterData()
+print(data12312313["player"]["stats"]["SkyWars"]["kills"])
+print(data12312313["player"]["stats"]["Bedwars"]["kills_bedwars"])
