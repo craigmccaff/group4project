@@ -31,7 +31,7 @@ def filterData():
             flag = False
             return "HungerGames"
 
-
+# This may only work for SkyWars right now as that's the only game with the 'kills' field.
 def displayData(allPlayerInfo, selectedGame):
     return allPlayerInfo["player"]["stats"][selectedGame]["kills"]
 
