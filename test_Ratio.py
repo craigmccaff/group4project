@@ -1,5 +1,5 @@
 from unittest import TestCase
-import Ratio
+from functions import Ratio
 
 
 class Test(TestCase):
