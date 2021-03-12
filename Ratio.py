@@ -1,7 +1,6 @@
-def ratio():
-    kills = 12
-    deaths = 6
+def ratio(kills,deaths):
+    kills =
+    deaths =
     kdratio = kills/deaths
 
     return kdratio
-print(ratio())
