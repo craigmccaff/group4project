@@ -13,17 +13,31 @@ def getData():
 
 
 def filterData():
+
     skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
     bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
+    hungerGamesNames = ['hg', 'hunger', 'hungergames', 'hgs', 'survivalgames', 'sg']
+
     flag = True
     while flag:
         searchGame = input("What gamemode would you like to search for? ")
-        if searchGame in skywarsNames or searchGame in bedNames:
+        if searchGame.lower() in skywarsNames:
             flag = False
-            return searchGame
+            return "SkyWars"
+        if searchGame.lower() in bedNames:
+            flag = False
+            return "Bedwars"
+        if searchGame.lower() in hungerGamesNames:
+            flag = False
+            return "HungerGames"
 
 
-dataFromAPI = getData()
-gamemode = filterData()
-print(dataFromAPI["player"]["stats"]["SkyWars"]["kills"])
-print(dataFromAPI["player"]["stats"]["Bedwars"]["kills_bedwars"])
+def displayData(allPlayerInfo, selectedGame):
+    return allPlayerInfo["player"]["stats"][selectedGame]["kills"]
+
+
+# dataFromAPI = getData()
+# gamemode = filterData()
+# print(dataFromAPI["player"]["stats"]["SkyWars"]["kills"])
+# print(dataFromAPI["player"]["stats"]["Bedwars"]["kills_bedwars"])
+print(displayData(getData(), filterData()))
