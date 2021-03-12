@@ -1,16 +1,18 @@
 import requests
 
 
+def searchName():
+    searchName = input('What name would you like to search for? ')
+    return searchName
+
+
 def getData():
     API_KEY = "c1e412b1-5131-49f9-b7a2-bdfda4371684"
-    searchName = input('What name would you like to search for? ')
-
-    data = requests.get(f"https://api.hypixel.net/player?key={API_KEY}&name={searchName}").json()
+    data = requests.get(f"https://api.hypixel.net/player?key={API_KEY}&name={searchName()}").json()
     return data
 
 
 def filterData():
-    #possible game acronyms
     skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
     bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
     flag = True
