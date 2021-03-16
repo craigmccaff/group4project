@@ -4,10 +4,9 @@ import main
 
 
 class SearchNameTest(unittest.TestCase):
-    def test_searchName(self):
-        main.searchName = MagicMock(return_value = "jif")
-        self.assertEqual(main.searchName(), "jif")
-
+    def test_searchGame(self):
+        main.searchGame = MagicMock(return_value = "sky")
+        self.assertEqual(main.filterData(), "SkyWars")
 
 if __name__ == '__main__':
     unittest.main()
