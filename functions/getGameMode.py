@@ -1,4 +1,7 @@
-searchGame = input("What gamemode would you like to search for? ")
+from functions import inputGameMode
+
+searchGame = inputGameMode.inputGameMode()
+
 def getGameMode():
     global searchGame
 
