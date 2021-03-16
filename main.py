@@ -13,7 +13,6 @@ def getData():
 
 
 def filterData():
-
     skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
     bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
     hungerGamesNames = ['hg', 'hunger', 'hungergames', 'hgs', 'survivalgames', 'sg']
@@ -31,13 +30,19 @@ def filterData():
             flag = False
             return "HungerGames"
 
+
 # This may only work for SkyWars right now as that's the only game with the 'kills' field.
 def displayData(allPlayerInfo, selectedGame):
-    return allPlayerInfo["player"]["stats"][selectedGame]["kills"]
+    gamemodeStats = {
+        "SkyWars": ['kills', 'deaths', 'wins'],
+        "Bedwars": ['kills_bedwars', 'deaths_bedwars', 'wins_bedwars'],
+        "HungerGames": ['kills', 'deaths', 'wins']
+    }
+
+    for counter in gamemodeStats[selectedGame]:
+        if allPlayerInfo["player"]["stats"][selectedGame][counter] is None:
+            allPlayerInfo["player"]["stats"][selectedGame][counter] = 0
+        print(allPlayerInfo["player"]["stats"][selectedGame][counter])
 
 
-# dataFromAPI = getData()
-# gamemode = filterData()
-# print(dataFromAPI["player"]["stats"]["SkyWars"]["kills"])
-# print(dataFromAPI["player"]["stats"]["Bedwars"]["kills_bedwars"])
-print(displayData(getData(), filterData()))
+displayData(getData(), filterData())
