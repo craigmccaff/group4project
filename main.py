@@ -9,13 +9,14 @@ def searchName():
 def getData():
     API_KEY = "c1e412b1-5131-49f9-b7a2-bdfda4371684"
     data = requests.get(f"https://api.hypixel.net/player?key={API_KEY}&name={searchName()}").json()
+    print(data)
     return data
 
 
 def filterData():
-    skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
-    bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
-    hungerGamesNames = ['hg', 'hunger', 'hungergames', 'hgs', 'survivalgames', 'sg']
+    skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar', 'sky wars', 'sky war']
+    bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar', 'bed wars', 'bed war']
+    hungerGamesNames = ['hg', 'hunger', 'hungergames', 'hgs', 'survivalgames', 'sg', 'survival games', 'hunger games']
 
     flag = True
     while flag:
@@ -40,9 +41,9 @@ def displayData(allPlayerInfo, selectedGame):
     }
 
     for counter in gamemodeStats[selectedGame]:
-        if allPlayerInfo["player"]["stats"][selectedGame][counter] is None:
-            allPlayerInfo["player"]["stats"][selectedGame][counter] = 0
-        print(allPlayerInfo["player"]["stats"][selectedGame][counter])
+        # if type(allPlayerInfo['player']['stats'][selectedGame][counter]) is None:
+        #     allPlayerInfo['player']['stats'][selectedGame][counter] = 0
+        print(counter + str(allPlayerInfo['player']['stats'][selectedGame][counter]))
 
 
 displayData(getData(), filterData())
