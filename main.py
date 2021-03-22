@@ -22,17 +22,13 @@ def filterData():
     while flag:
         searchGame = input("What gamemode would you like to search for? ")
         if searchGame.lower() in skywarsNames:
-            flag = False
             return "SkyWars"
         if searchGame.lower() in bedNames:
-            flag = False
             return "Bedwars"
         if searchGame.lower() in hungerGamesNames:
-            flag = False
             return "HungerGames"
 
 
-# This may only work for SkyWars right now as that's the only game with the 'kills' field.
 def displayData(allPlayerInfo, selectedGame):
     gamemodeStats = {
         "SkyWars": ['kills', 'deaths', 'wins'],
@@ -41,9 +37,10 @@ def displayData(allPlayerInfo, selectedGame):
     }
 
     for counter in gamemodeStats[selectedGame]:
-        # if type(allPlayerInfo['player']['stats'][selectedGame][counter]) is None:
-        #     allPlayerInfo['player']['stats'][selectedGame][counter] = 0
-        print(counter + str(allPlayerInfo['player']['stats'][selectedGame][counter]))
+        try:
+            print(counter + str(allPlayerInfo['player']['stats'][selectedGame][counter]))
+        except:
+            print(counter + "0")
 
 
 displayData(getData(), filterData())
