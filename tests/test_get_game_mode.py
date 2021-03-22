@@ -4,7 +4,7 @@ from functions import getGameMode
 
 
 class GetGameModeTest(unittest.TestCase):
-    def test_searchGame(self):
+    def test_searchGameValue(self):
         getGameMode.inputGameMode = MagicMock(return_value = "sky")
         self.assertEqual(getGameMode.getGameMode(), "SkyWars")
 
