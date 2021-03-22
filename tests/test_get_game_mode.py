@@ -1,12 +1,12 @@
 import unittest
 from unittest.mock import MagicMock
-import main
+from functions import getGameMode
 
 
-class SearchNameTest(unittest.TestCase):
+class GetGameModeTest(unittest.TestCase):
     def test_searchGame(self):
-        main.searchGame = MagicMock(return_value = "sky")
-        self.assertEqual(main.filterData(), "SkyWars")
+        getGameMode.inputGameMode = MagicMock(return_value = "sky")
+        self.assertEqual(getGameMode.getGameMode(), "SkyWars")
 
 if __name__ == '__main__':
     unittest.main()

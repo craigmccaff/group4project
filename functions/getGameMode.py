@@ -1,6 +1,10 @@
-searchGame = input("What gamemode would you like to search for? ")
+def inputGameMode():
+    return input("What game mode would you like to search for?")
+
+
 def getGameMode():
-    global searchGame
+
+    searchGame = inputGameMode()
 
     skywarsNames = ['sw', 'skyw', 'skywars', 'swars', 'sky', 'skywar']
     bedNames = ['bw', 'bedw', 'bedwars', 'bwars', 'bed', 'bedwar']
