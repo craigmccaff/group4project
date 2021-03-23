@@ -13,13 +13,10 @@ def getGameMode():
     flag = True
     while flag:
         if searchGame.lower() in skywarsNames:
-            flag = False
             return "SkyWars"
         if searchGame.lower() in bedNames:
-            flag = False
             return "Bedwars"
         if searchGame.lower() in hungerGamesNames:
-            flag = False
             return "HungerGames"
         else:
             searchGame = input("Incorrect input: What gamemode would you like to search for? (Skywars, Bedwars, HungerGames)")
