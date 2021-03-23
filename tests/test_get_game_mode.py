@@ -18,8 +18,7 @@ class GetGameModeTest(unittest.TestCase):
         self.assertEqual(getGameMode.getGameMode(), "SkyWars")
 
     def test_gameModeError(self):
-        getGameMode.inputGameMode = MagicMock(return_value = "error handling works")
-        getGameMode.inputGameMode = MagicMock(return_value = "bedwars")
+        getGameMode.inputGameMode = MagicMock(side_effect = ["error handling works", "bedwars"])
         self.assertEqual(getGameMode.getGameMode(), "Bedwars")
 
 if __name__ == '__main__':
