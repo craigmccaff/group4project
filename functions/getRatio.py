@@ -1,5 +1,5 @@
-def ratio(kills,deaths):
+def ratio(kills, deaths):
 
-    kdratio = kills/deaths
+    kdratio = int(kills)/int(deaths)
 
-    return kdratio
+    print("KD Ratio " + str(kdratio))
