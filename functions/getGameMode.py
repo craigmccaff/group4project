@@ -1,5 +1,5 @@
 def inputGameMode():
-    return input("What game mode would you like to search for?")
+    return input("What game mode would you like to search for? (Skywars, Bedwars, HungerGames)")
 
 
 def getGameMode():
@@ -19,5 +19,6 @@ def getGameMode():
         if searchGame.lower() in hungerGamesNames:
             return "HungerGames"
         else:
-            searchGame = input("Incorrect input: What gamemode would you like to search for? (Skywars, Bedwars, HungerGames)")
+            print("Incorrect value please enter: skywars, bedwars or hungergames")
+            searchGame = inputGameMode()
 
