@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c111f21-1b87-43e9-9625-cdf9affb7efb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/getGameMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/getGameMode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_game_mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_game_mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,26 +138,34 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changing getGameMode.py and test_get_game_mode.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing getGameMode.py and test_get_game_mode.py" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1616427082060">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1616434279530">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.25.1920.991@0.25.1920.991" timestamp="1616427082060" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1616427082059">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1616434279530">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.25.1920.991@0.25.1920.991" timestamp="1616427082059" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1616427082058">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1616434279530">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.25.1920.991@0.25.1920.991" timestamp="1616427082058" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1616427082059">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1616434279530">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.25.1920.991@0.25.1920.991" timestamp="1616427082059" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
     <state x="469" y="156" key="SettingsEditor" timestamp="1616427101720">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
     <state x="469" y="156" key="SettingsEditor/0.25.1920.991@0.25.1920.991" timestamp="1616427101720" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616427191762">
+      <screen x="0" y="25" width="1920" height="991" />
+    </state>
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.25.1920.991@0.25.1920.991" timestamp="1616427191762" />
   </component>
 </project>
