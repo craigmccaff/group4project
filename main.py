@@ -6,7 +6,6 @@ selectedGame = getGameMode.getGameMode()
 kills = getKillsDeaths.getKills(allPlayerData, selectedGame, gameModeStatsDict.gamemodeStats)
 deaths = getKillsDeaths.getDeaths(allPlayerData, selectedGame, gameModeStatsDict.gamemodeStats)
 
-
 displayData.displayData(allPlayerData, selectedGame, gameModeStatsDict.gamemodeStats)
 
 getRatio.ratio(kills, deaths)
