@@ -12,4 +12,3 @@ def getData():
             return data
         else:
             print("You have recently searched for this name, please wait before searching again.")
-

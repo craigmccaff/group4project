@@ -7,3 +7,4 @@ def ratio(kills, deaths):
     except:
         print("KD Ratio " + kills)
         return kills
+

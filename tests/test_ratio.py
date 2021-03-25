@@ -1,9 +1,9 @@
 from unittest import TestCase
-from functions import Ratio
+from functions import getRatio
 
 
 class Test(TestCase):
     def test_ratio(self):
-        self.assertEqual(Ratio.ratio(20,10), 2)
+        self.assertEqual(getRatio.ratio(20,10), 2)
 
 
