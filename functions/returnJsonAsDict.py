@@ -1,11 +1,11 @@
 import json
 
 
-def getOutput():
-    with open('../resources/testGetDataOutput.json') as json_file:
+def getRecentSearch():
+    with open('../resources/recentSearch.json', 'r') as json_file:
         return json.load(json_file)
 
 
-def getInput():
-    with open('../resources/testGetDataInput.json') as json_file:
+def getTestJson():
+    with open('../resources/testJson.json') as json_file:
         return json.load(json_file)

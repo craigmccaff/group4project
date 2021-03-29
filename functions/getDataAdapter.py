@@ -1,10 +1,10 @@
 from functions import returnJsonAsDict
 
 
-def getDataTest():
+def getDataAdapter():
     flag = True
     while flag:
-        data = returnJsonAsDict.getInput()
+        data = returnJsonAsDict.getRecentSearch()
         if data['success'] == True:
             return data
         else:
