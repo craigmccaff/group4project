@@ -1,8 +1,8 @@
 def ratio(kills, deaths):
     try:
         kdratio = round(int(kills) / int(deaths), 2)
-        print("KD Ratio " + str(kdratio))
-        return kdratio
+        display = "KD Ratio " + str(kdratio)
+        return display
     except:
-        print("KD Ratio " + kills)
-        return kills
+        display = "KD Ratio " + str(kills)
+        return display
