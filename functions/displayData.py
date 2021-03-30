@@ -9,4 +9,4 @@ def displayData(allPlayerData, selectedGame, gamemodeStats):
             print(counter.capitalize() + " " + str(allPlayerData['player']['stats'][selectedGame][counter]))
         except:
             print(counter.capitalize() + " " + "0")
-    getRatio.ratio(kills, deaths)
+    print(getRatio.ratio(kills, deaths))
