@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c111f21-1b87-43e9-9625-cdf9affb7efb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ratio.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ratio.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,47 +51,47 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_get_game_mode.py">
-    <configuration name="Ratio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_ratio.Test.test_ratio_no_kills_or_deaths">
+    <configuration name="Unittests for test_ratio.Test.test_ratio" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="group4project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ratio.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ratio.Test.test_ratio&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="getGameMode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_ratio.Test.test_ratio2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="group4project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/getGameMode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ratio.Test.test_ratio2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_ratio.Test.test_ratio_no_kills_or_deaths" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="group4project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ratio.Test.test_ratio_no_kills_or_deaths&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_get_game_mode.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -107,11 +108,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_ratio.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="group4project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_ratio.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_ratio.Test.test_ratio_no_kills_or_deaths" />
+        <item itemvalue="Python tests.Unittests in test_ratio.py" />
+        <item itemvalue="Python tests.Unittests for test_ratio.Test.test_ratio" />
+        <item itemvalue="Python tests.Unittests for test_ratio.Test.test_ratio2" />
         <item itemvalue="Python tests.Unittests in test_get_game_mode.py" />
-        <item itemvalue="Python.getGameMode" />
-        <item itemvalue="Python.Ratio" />
       </list>
     </recent_temporary>
   </component>
@@ -139,33 +156,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
     <MESSAGE value="Changing getGameMode.py and test_get_game_mode.py" />
     <option name="LAST_COMMIT_MESSAGE" value="Changing getGameMode.py and test_get_game_mode.py" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1616434279530">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1616434279530">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1616434279530">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1616434279530">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.25.1920.991@0.25.1920.991" timestamp="1616434279530" />
-    <state x="469" y="156" key="SettingsEditor" timestamp="1616427101720">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state x="469" y="156" key="SettingsEditor/0.25.1920.991@0.25.1920.991" timestamp="1616427101720" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1616427191762">
-      <screen x="0" y="25" width="1920" height="991" />
-    </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.25.1920.991@0.25.1920.991" timestamp="1616427191762" />
   </component>
 </project>
